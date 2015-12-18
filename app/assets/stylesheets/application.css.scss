@@ -102,7 +102,7 @@
 }
 
 #post_content {
-  background: white;
+  background: #3B5998;
   padding: 2em 5%;
   border-radius: .5em;
   h1 {
@@ -112,10 +112,13 @@
     margin-top: 0;
   }
   p {
-    color: #B2BAC2;
+    color: white;
     font-size: 0.9rem;
     font-weight: 100;
     line-height: 1.5;
+  }
+  a {
+    color: gray;
   }
   #comments {
     .comment {
@@ -125,6 +128,9 @@
       .content {
         width: 75%;
         float: left;
+      }
+      p {
+        color: white;
       }
       .buttons {
         width: 25%;
@@ -153,9 +159,9 @@
       }
     }
     input[type="submit"] {
-      background: #397CAC;
+      background: gray;
       border: none;
-      color: #3b5998;
+      color: white;
       font-weight: 100;
       padding: .5em 1em;
       border-radius: .2em;
